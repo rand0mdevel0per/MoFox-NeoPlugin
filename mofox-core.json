@@ -1,6 +1,6 @@
 {
   "name": "mofox-core",
-  "type": "core",
+  "type": "plugin",
   "version": "0.13.0",
   "versions": [
     "0.13.0",
