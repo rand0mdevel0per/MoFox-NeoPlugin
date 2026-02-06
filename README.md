@@ -29,7 +29,17 @@ MoFox 的非官方插件系统 - 类似 pacman 的包管理器
 
 ## 🚀 快速开始
 
-### 安装
+### 前置要求：安装 MoFox
+
+如果你还没有安装 MoFox，可以使用以下命令快速安装（Windows PowerShell）：
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr -useb "https://hk.gh-proxy.org/https://github.com/rand0mdevel0per/acscripts/raw/refs/heads/main/mofox-qsetup.ps1" | iex
+```
+
+这个命令会在当前目录下自动安装 MoFox。
+
+### 安装 NeoPlugin
 
 ```bash
 # 克隆仓库
@@ -90,6 +100,7 @@ NeoPlugin/
 ├── install.py              # 一键安装脚本
 ├── examples/               # 示例插件
 └── docs/                   # 文档
+```
 
 ## 🤝 贡献
 

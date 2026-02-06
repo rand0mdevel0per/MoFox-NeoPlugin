@@ -40,8 +40,8 @@ class NmfpmCLI:
         # 创建依赖解析器
         self.resolver = DependencyResolver(self.database_dir)
 
-        # 插件仓库 URL（使用用户的 GitHub）
-        self.registry_url = "https://github.com/rand0mdevel0per/neoplugin-registry.git"
+        # 插件仓库 URL（使用代理加速访问）
+        self.registry_url = "https://hk.gh-proxy.org/https://github.com/rand0mdevel0per/neoplugin-registry.git"
 
     # === 数据库管理 ===
 

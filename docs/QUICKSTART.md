@@ -120,4 +120,4 @@ A: 删除 `plugins/nmfpm_loader` 目录和 `scripts/nmfpm.py` 文件。
 
 - [设计文档](DESIGN.md)
 - [示例插件](../examples/)
-- [GitHub Issues](https://github.com/rand0mdevel0per/NeoPlugin/issues)
+- [GitHub Issues](https://github.com/rand0mdevel0per/MoFox-NeoPlugin/issues)
