@@ -31,7 +31,7 @@ def main():
 
     # publish 命令
     publish_parser = subparsers.add_parser('publish', help='发布插件到 registry')
-    publish_parser.add_argument('--repo', required=True, help='插件仓库 URL')
+    publish_parser.add_argument('--repo', help='插件仓库 URL（可选，自动检测 git origin）')
 
     args = parser.parse_args()
 

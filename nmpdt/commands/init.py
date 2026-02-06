@@ -35,7 +35,7 @@ categories = []
 
 lib = false
 
-mofox_version = ">=2.0.0"
+mofox_version = ">=0.10.0"
 
 [dependencies]
 

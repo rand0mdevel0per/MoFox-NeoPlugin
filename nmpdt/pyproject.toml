@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nmpdt"
+version = "1.0.0"
+description = "NeoPlugin Development Toolkit - 类似 MPDT 的开发工具"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "NeoPlugin Team", email = "noreply@example.com"}
+]
+keywords = ["neoplugin", "mofox", "development", "toolkit", "plugin"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "toml>=0.10.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/rand0mdevel0per/MoFox-NeoPlugin"
+Repository = "https://github.com/rand0mdevel0per/MoFox-NeoPlugin"
+Issues = "https://github.com/rand0mdevel0per/MoFox-NeoPlugin/issues"
+
+[project.scripts]
+nmpdt = "nmpdt.__main__:main"
+
+[tool.setuptools]
+packages = ["nmpdt", "nmpdt.commands"]

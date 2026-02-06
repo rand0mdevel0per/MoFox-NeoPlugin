@@ -11,7 +11,7 @@ categories = ["official", "system"]
 lib = false
 
 # MoFox 版本要求
-mofox_version = ">=2.0.0"
+mofox_version = ">=0.10.0"
 
 # 依赖（暂无）
 [dependencies]

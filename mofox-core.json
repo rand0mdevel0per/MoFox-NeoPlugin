@@ -1,0 +1,25 @@
+{
+  "name": "mofox-core",
+  "type": "core",
+  "version": "0.13.0",
+  "versions": [
+    "0.13.0",
+    "0.12.0",
+    "0.11.0",
+    "0.10.0"
+  ],
+  "description": "MoFox 核心系统 - QQ 机器人框架",
+  "author": "MoFox Team",
+  "repository": "https://github.com/YOUR_USERNAME/MoFox",
+  "download_url": "https://github.com/YOUR_USERNAME/MoFox/archive/refs/tags/v{version}.tar.gz",
+  "checksum": "",
+  "dependencies": {},
+  "keywords": [
+    "mofox",
+    "core",
+    "bot",
+    "qq"
+  ],
+  "license": "MIT",
+  "mofox_version": ">=0.10.0"
+}
