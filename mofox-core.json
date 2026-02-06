@@ -11,7 +11,6 @@
   "description": "MoFox 核心系统 - QQ 机器人框架",
   "author": "MoFox Team",
   "repository": "https://github.com/YOUR_USERNAME/MoFox",
-  "download_url": "https://github.com/YOUR_USERNAME/MoFox/archive/refs/tags/v{version}.tar.gz",
   "checksum": "",
   "dependencies": {},
   "keywords": [
