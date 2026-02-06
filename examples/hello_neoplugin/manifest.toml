@@ -1,0 +1,26 @@
+[package]
+name = "hello-neoplugin"
+version = "1.0.0"
+description = "一个简单的 NeoPlugin 示例插件"
+authors = ["NeoPlugin Team"]
+license = "MIT"
+keywords = ["example", "hello-world"]
+categories = ["example"]
+
+# 这是一个 plugin，不是 lib
+lib = false
+
+# MoFox 版本要求
+mofox_version = ">=2.0.0"
+
+# 依赖（示例）
+[dependencies]
+# some-lib = "^1.0.0"
+
+# Python 依赖（示例）
+[python_dependencies]
+# requests = "^2.28.0"
+
+# 生命周期钩子（示例）
+[hooks]
+# post_install = "scripts/post_install.py"

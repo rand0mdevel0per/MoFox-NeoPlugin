@@ -1,0 +1,29 @@
+[project]
+name = "neoplugin"
+version = "1.0.0"
+description = "NeoPlugin - MoFox 的非官方插件系统"
+authors = [
+    {name = "MoFox Team"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "toml>=0.10.2",
+    "gitpython>=3.1.0",
+    "packaging>=23.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

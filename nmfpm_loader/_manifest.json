@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "name": "NeoPlugin Loader",
+  "version": "1.0.0",
+  "description": "NeoPlugin 系统加载器，负责加载和管理 .nmfpm/installed/ 目录下的所有 neoplugins",
+  "author": {
+    "name": "rand0mdevel0per"
+  },
+  "license": "MIT",
+  "keywords": [
+    "neoplugin",
+    "loader",
+    "system"
+  ],
+  "categories": [
+    "system"
+  ]
+}

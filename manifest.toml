@@ -1,0 +1,27 @@
+[package]
+name = "nmfpm-loader"
+version = "1.0.0"
+description = "NeoPlugin 系统加载器 - MoFox 的非官方插件管理系统"
+authors = ["MoFox Team"]
+license = "MIT"
+keywords = ["neoplugin", "loader", "package-manager"]
+categories = ["official", "system"]
+
+# 这是一个 plugin，不是 lib
+lib = false
+
+# MoFox 版本要求
+mofox_version = ">=2.0.0"
+
+# 依赖（暂无）
+[dependencies]
+
+# Python 依赖
+[python_dependencies]
+toml = "^0.10.2"
+gitpython = "^3.1.0"
+packaging = "^23.0"
+
+# 生命周期钩子
+[hooks]
+post_install = "scripts/post_install.py"
