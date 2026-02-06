@@ -209,7 +209,6 @@ def publish_plugin(repo_url: str = None):
         "description": description,
         "author": authors[0] if authors else "",
         "repository": repo_url,
-        "download_url": f"{repo_url}/archive/refs/heads/master.tar.gz",
         "checksum": "",
         "dependencies": manifest.get("dependencies", {}),
         "keywords": package.get("keywords", []),
