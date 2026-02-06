@@ -105,6 +105,42 @@ python bot.py
 
 详细开发指南请查看 [DESIGN.md](DESIGN.md)。
 
+## 🔍 代码质量检查（Dev Tools）
+
+NeoPlugin 提供了类似 MPDT 的代码质量检查工具，帮助你确保插件质量。
+
+### 使用检查工具
+
+```bash
+# 检查插件结构和元数据
+python scripts/check_neoplugin.py /path/to/your/plugin
+
+# 运行 ruff 代码风格检查
+ruff check /path/to/your/plugin
+
+# 自动修复格式问题
+ruff check --fix /path/to/your/plugin
+```
+
+### 检查系统
+
+参考 MPDT 的 7 层检查系统，NeoPlugin 检查工具包含：
+
+1. **结构检查** - 验证必要文件（manifest.toml, plugin.py）
+2. **元数据检查** - 检查 manifest.toml 的完整性
+3. **组件检查** - 验证 NeoPlugin 类的正确性
+
+### 提交到 Registry
+
+当你提交插件到 neoplugin-registry 时，GitHub Action 会自动：
+- 验证 JSON 格式
+- 检查必填字段
+- Clone 你的插件仓库
+- 运行 ruff check
+- 运行结构检查
+
+确保在提交前本地运行检查工具，避免 PR 被拒绝。
+
 ## ❓ 常见问题
 
 ### Q: 插件没有加载？
