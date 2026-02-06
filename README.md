@@ -41,6 +41,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr -useb "https://hk.gh-proxy
 
 ### 安装 NeoPlugin
 
+**方式一：一键安装（推荐）**
+
+在 MoFox 根目录下运行（Windows PowerShell）：
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr -useb "https://hk.gh-proxy.org/https://raw.githubusercontent.com/rand0mdevel0per/NeoPlugin/master/install-neoplugin.ps1" | iex
+```
+
+**方式二：手动安装**
+
 ```bash
 # 克隆仓库
 git clone https://github.com/rand0mdevel0per/NeoPlugin.git
